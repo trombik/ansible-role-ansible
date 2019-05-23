@@ -1,3 +1,7 @@
+## Release 1.1.1
+
+* d0a3a91 bugfix: add role_name to meta/default.yml
+
 ## Release 1.1.0
 
 * f79de07 feature: support different ansible versions
