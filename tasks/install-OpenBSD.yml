@@ -2,5 +2,5 @@
 
 - name: Install ansible
   openbsd_pkg:
-    name: ansible
+    name: "{{ ansible_role_package }}"
     state: present

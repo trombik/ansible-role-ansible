@@ -8,9 +8,34 @@ None
 
 # Role Variables
 
-| variable | description | default |
+| Variable | Description | Default |
 |----------|-------------|---------|
+| `ansible_role_package` | Package name of ansible | `{{ __ansible_role_package }}` |
 
+
+## Debian
+
+| Variable | Default |
+|----------|---------|
+| `__ansible_role_package` | `ansible` |
+
+## FreeBSD
+
+| Variable | Default |
+|----------|---------|
+| `__ansible_role_package` | `sysutils/ansible` |
+
+## OpenBSD
+
+| Variable | Default |
+|----------|---------|
+| `__ansible_role_package` | `ansible` |
+
+## RedHat
+
+| Variable | Default |
+|----------|---------|
+| `__ansible_role_package` | `ansible` |
 
 # Dependencies
 

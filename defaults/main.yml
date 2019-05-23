@@ -1,0 +1,2 @@
+---
+ansible_role_package: "{{ __ansible_role_package }}"
